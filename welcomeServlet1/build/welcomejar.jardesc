@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="welcomeServlet1/build/welcomejar.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/welcomeServlet1/build/welcomejar.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" mainClassHandleIdentifier="=welcomeServlet1/src&lt;com.zoho{New.java[New" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <file path="/welcomeServlet1/.classpath"/>
+        <javaElement handleIdentifier="=welcomeServlet1/src"/>
+        <folder path="/welcomeServlet1/WebContent"/>
+        <file path="/welcomeServlet1/book.json"/>
+        <file path="/welcomeServlet1/.project"/>
+        <folder path="/welcomeServlet1/build"/>
+    </selectedElements>
+</jardesc>
