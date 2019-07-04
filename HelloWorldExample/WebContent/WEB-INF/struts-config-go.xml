@@ -1,0 +1,18 @@
+<struts-config>
+
+    <form-beans>
+    	<form-bean name="helloWorldForm" type="com.tutorials4u.forms.HelloWorldForm"/>
+    </form-beans>
+
+	 <global-forwards>
+        <forward name="helloWorld" path="/helloWorld.go"/>
+    </global-forwards>
+    
+    <action-mappings>
+        <action path="/helloWorld" type="com.tutorials4u.actions.HelloWorldAction" name="helloWorldForm">
+        	<forward name="success" path="/hello.jsp" />
+        </action>    
+    </action-mappings>
+
+</struts-config>
+ 
