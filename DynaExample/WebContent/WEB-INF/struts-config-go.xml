@@ -1,0 +1,19 @@
+<struts-config>
+
+<form-beans>
+  		 <form-bean name="dynaForm"   
+		      type="org.apache.struts.action.DynaActionForm">
+		      <form-property name="message" initial="hii" type="java.lang.String"/>
+		</form-bean>
+</form-beans>
+	 <global-forwards>
+        <forward name="helloWorld" path="/helloWorld.do"/>
+    </global-forwards>
+    
+    <action-mappings>
+        <action path="/helloWorld" type="com.actions.HelloWorldAction" name="dynaForm">
+        	<forward name="success" path="/helloWorld.jsp" />
+        </action>    
+    </action-mappings>
+
+</struts-config>
